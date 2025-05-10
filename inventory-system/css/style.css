@@ -1,0 +1,85 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #f4f6f8;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 90%;
+    margin: 20px auto;
+    background: #fff;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    margin-top: 0;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+}
+
+table th, table td {
+    padding: 12px;
+    border: 1px solid #ddd;
+    text-align: left;
+}
+
+a.button {
+    display: inline-block;
+    padding: 10px 15px;
+    background: #3498db;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+a.button:hover {
+    background: #2980b9;
+}
+
+form input, form textarea, form select {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+}
+.btn {
+    padding: 6px 12px;
+    font-size: 0.9rem;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    text-decoration: none;
+    color: #fff;
+    margin: 0 2px;
+}
+
+/* Edit Button */
+.btn-edit {
+    background-color: #3498db;
+}
+
+.btn-edit:hover {
+    background-color: #2980b9;
+}
+
+/* Delete Button */
+.btn-delete {
+    background-color: #e74c3c;
+}
+
+.btn-delete:hover {
+    background-color: #c0392b;
+}
+.button-wrapper {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
